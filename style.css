@@ -116,7 +116,7 @@ main {
 }
 
 #trial-btn {
-      order: 1px solid gray;
+      border: 1px solid gray;
       padding: 5px 20px;
       border-radius: 5px;
       background-color: #004CE6;
@@ -193,4 +193,54 @@ main {
       line-height: 22px;
       margin: 10px 0;
       color: #535558;
+}
+
+/* task management section */
+#task-management-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 100px 0;
+}
+
+#task-management-content {
+      width: 35vw;
+}
+
+#task-management-content h5 {
+      color: #094BCA;
+      margin-bottom: 20px;
+}
+
+#task-management-content h1 {
+      color: #223140;
+}
+
+#task-management-content p {
+      color: #535558;
+      line-height: 22px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      margin: 20px 0;
+}
+
+#task-management-content a {
+      order: 1px solid gray;
+      padding: 5px 20px;
+      border-radius: 5px;
+      background-color: #004CE6;
+      color: white;
+      border-color: #004CE6;
+      cursor: pointer;
+      text-decoration: none;
+}
+
+#task-management-image {
+      width: 35vw;
+}
+
+#task-management-image img {
+      width: 100%;
 }
