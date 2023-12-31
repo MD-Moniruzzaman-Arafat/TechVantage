@@ -176,6 +176,9 @@ main {
 /* streamline section */
 #streamline-container {
       margin: 100px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 }
 
 #streamline-container h1 {
@@ -191,7 +194,7 @@ main {
       font-style: normal;
       font-weight: 400;
       line-height: 22px;
-      margin: 10px 0;
+      margin: 5px 0;
       color: #535558;
 }
 
@@ -227,7 +230,7 @@ main {
 }
 
 #task-management-content a {
-      order: 1px solid gray;
+      border: 1px solid gray;
       padding: 5px 20px;
       border-radius: 5px;
       background-color: #004CE6;
@@ -307,4 +310,17 @@ main {
       font-weight: 400;
       line-height: 22px;
       margin: 5px 0;
+}
+
+/* experience section */
+#streamline-container a {
+      border: 1px solid gray;
+      padding: 5px 20px;
+      border-radius: 5px;
+      background-color: #004CE6;
+      color: white;
+      border-color: #004CE6;
+      cursor: pointer;
+      text-decoration: none;
+      margin-top: 10px;
 }
