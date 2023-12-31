@@ -175,7 +175,7 @@ main {
 
 /* streamline section */
 #streamline-container {
-      margin: 100px;
+      margin: 100px 0;
 }
 
 #streamline-container h1 {
@@ -243,4 +243,42 @@ main {
 
 #task-management-image img {
       width: 100%;
+}
+
+/* customer card section*/
+#customer-card-container {
+      margin: 100px 0;
+      display: flex;
+      gap: 10px;
+}
+
+.customer-card {
+      width: 350px;
+      border-radius: 5px;
+      background: #FFF;
+      box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+      padding: 40px 20px;
+      text-align: center;
+      position: relative;
+}
+
+.customer-card img {
+      position: absolute;
+      top: -50px;
+      left: 130px;
+}
+
+.customer-card p {
+      color: #535558;
+      line-height: 22px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      margin: 20px 0;
+}
+
+.customer-card h1 {
+      color: #D9D9D9;
+      margin: 20px 0;
 }
