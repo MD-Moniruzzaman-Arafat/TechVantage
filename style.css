@@ -324,3 +324,51 @@ main {
       text-decoration: none;
       margin-top: 10px;
 }
+
+/* business-section */
+#business-section-header {
+      text-align: center;
+}
+
+.business-container {
+      margin: 100px 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+}
+
+.business-card {
+      width: 350px;
+      border-radius: 5px;
+      background: #FFF;
+      box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.business-image img {
+      width: 100%;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+}
+
+.business-content {
+      padding: 15px;
+}
+
+.business-content p {
+      margin: 10px 0;
+}
+
+.business-content a {
+      text-decoration: none;
+      color: #004CE6;
+}
+
+.business-content-category a {
+      text-decoration: none;
+      color: #004CE6;
+      background-color: #1361F51A;
+      padding: 2px 10px;
+      font-size: 14px;
+      border-radius: 5px;
+      margin: 0px 5px;
+}
